@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      /*元素选择器*/
+      h2 {
+        color: aqua;
+      }
+      /*类选择器*/
+      .highlight {
+        background-color: yellow
+      }
+      /*ID 选择器*/
+      #header {
+        font-size: 16px;
+        color: aqua;
+      }
+      /*通用选择器*/
+      * {
+        font-family: 'kaiti';
+        font-weight: bolder;
+      }
+      /*子元素选择器*/
+      .father > .son {
+        color: yellowgreen;
+      }
+      /*后代选择器*/
+      .father p {
+        color: red;
+        font-size: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>114514</h2>
+    <h3 class="highlight">test</h3>
+    <h3>test1</h3>
+    <h4 id="header">id</h4>
+    <div class="father">
+      <p class="son">子元素选择器示例</p>
+      <div>
+        <p class="grandson">后代选择器示例</p>
+      </div>
+    </div>
+  </body>
+</html>
